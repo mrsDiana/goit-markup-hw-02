@@ -58,14 +58,15 @@ letter-spacing: 0.03em;
 
 .link:hover,
 .link:focus,
-.link:hover,
-.link:focus {
+.link:active{
     color: var(--accent-color);
 }
 
 .pages .curent {
     color: var(--accent-color) ;
 }
+
+/*Студия*/
 
 /*Герой*/
 
@@ -130,6 +131,7 @@ letter-spacing: 0.03em;
     line-height: 1.19;
 }
 
+
 /*Подвал*/
 .footer {
     background-color: var(--black-fon);
@@ -140,9 +142,41 @@ letter-spacing: 0.03em;
 }
 
 .address{
-        color: var(--white);
+    color: var(--white);
+    font-style: normal;
 }
 
 .footer-contacts {
     color: var(--adress-footer);
+    font-style: normal;
+}
+
+/*Портфолио*/
+
+.btn-grey {
+    color: var(--header-and-item);
+    background-color: var(--gray-fon);
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.63;
+}
+
+.btn-grey:hover,
+.btn-grey:focus,
+.btn-grey:active {
+    color: var(--white);
+    background-color: var(--accent-color);
+}
+
+.title-cards {
+    color: var(--header-and-item);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.point {
+    font-size: 16px;
+    line-height: 1.88;
 }
