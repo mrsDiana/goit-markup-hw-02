@@ -6,43 +6,143 @@
     --adress-footer: #FFFFFF99;
     --black-fon: #2F303A;
     --gray-fon: #F5F4FA;
-    
-
-    
+    --main: #757575;     
 }
 
 body {
 font-family: Roboto, sans-serif ;
-color: #757575;
-background-color:#FFFFFF;
+color: var(--main);
+background-color: var(--white);
 front-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 }
- .logo {
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/*Шапка*/
+
+.logo {
     front-family: Raleway, sans-serif;
     front-weight:700;
     front-size: 26px;
     line-height: 1.19;    
     color: var(--accent-color);
  }
+
 .logo-header {
     color: var(--black);
 }
 
-.pages{
+.pages .link{
     front-weight:500;
     fjnt-size:14px;
     line-height: 0.88;
+    color: var(--header-and-item);
 }
-.pages:hover,
-.pages:focus {
-    
+
+.contacts .link {
+    font-weight:500;
+    font-size:14px;
+    line-height:1.14;
+    letter-spacing: 0.02em;
+    color: var(--main);
+}
+
+.link:hover,
+.link:focus,
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
 }
 
 .pages .curent {
     color: var(--accent-color) ;
 }
 
- }
+/*Герой*/
+
+.hero {
+    color: var(--white);
+    background-color: var(--black-fon);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button-blu {
+    color: var(--white);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16;
+    line-height: 1.88;
+}
+
+.button-blu:active,
+.button-blu:focus {
+    background-color: transparent;
+}
+
+/*Особенности*/
+
+.none {
+    display: none;
+}
+.characteristic .title-item {
+    color: var(--header-and-item);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.88;
+    text-transform: uppercase;
+}
+
+/*Оглавление секций*/
+.title {
+    color: var(--header-and-item);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/*Чем мы занимаемся*/
+
+/*Наша команда*/
+.name {
+    color: var(--header-and-item);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.position {
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/*Подвал*/
+.footer {
+    background-color: var(--black-fon);
+}
+
+.logo-footer {
+    color: var(--white);
+}
+
+.address{
+        color: var(--white);
+}
+
+.footer-contacts {
+    color: var(--adress-footer);
+}
