@@ -1,0 +1,48 @@
+:root {
+    --accent-color: #2196F3;
+    --black:#000000;
+    --white:#FFFFFF;
+    --header-and-item: #212121;
+    --adress-footer: #FFFFFF99;
+    --black-fon: #2F303A;
+    --gray-fon: #F5F4FA;
+    
+
+    
+}
+
+body {
+font-family: Roboto, sans-serif ;
+color: #757575;
+background-color:#FFFFFF;
+front-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+ .logo {
+    front-family: Raleway, sans-serif;
+    front-weight:700;
+    front-size: 26px;
+    line-height: 1.19;    
+    color: var(--accent-color);
+ }
+.logo-header {
+    color: var(--black);
+}
+
+.pages{
+    front-weight:500;
+    fjnt-size:14px;
+    line-height: 0.88;
+}
+.pages:hover,
+.pages:focus {
+    
+}
+
+.pages .curent {
+    color: var(--accent-color) ;
+}
+
+ }
