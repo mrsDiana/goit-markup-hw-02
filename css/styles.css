@@ -13,7 +13,7 @@ body {
 font-family: Roboto, sans-serif ;
 color: var(--main);
 background-color: var(--white);
-front-weight: 400;
+font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -30,11 +30,17 @@ letter-spacing: 0.03em;
 /*Шапка*/
 
 .logo {
-    front-family: Raleway, sans-serif;
-    front-weight:700;
-    front-size: 26px;
+    font-family: Raleway, sans-serif;
+    font-weight:700;
+    font-size: 26px;
     line-height: 1.19;    
     color: var(--accent-color);
+ }
+
+ .logo:hover,
+ .logo:focus,
+ .logo:active {
+    background-color: var(--gray-fon);
  }
 
 .logo-header {
@@ -42,8 +48,8 @@ letter-spacing: 0.03em;
 }
 
 .pages .link{
-    front-weight:500;
-    fjnt-size:14px;
+    font-weight:500;
+    font-size:14px;
     line-height: 0.88;
     color: var(--header-and-item);
 }
@@ -73,25 +79,30 @@ letter-spacing: 0.03em;
 .hero {
     color: var(--white);
     background-color: var(--black-fon);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
     text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
+}
+
+.hero-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
 }
 
 .button-blu {
     color: var(--white);
     background-color: var(--accent-color);
     font-weight: 700;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.88;
 }
 
 .button-blu:active,
+.button-blu:hover,
 .button-blu:focus {
-    background-color: transparent;
+    color: var(--black);
+    background-color: var(--gray-fon);
 }
 
 /*Особенности*/
@@ -106,6 +117,7 @@ letter-spacing: 0.03em;
     line-height: 0.88;
     text-transform: uppercase;
 }
+
 
 /*Оглавление секций*/
 .title {
@@ -141,6 +153,12 @@ letter-spacing: 0.03em;
     color: var(--white);
 }
 
+.logo-footer:hover,
+.logo-footer:focus,
+.logo-footer:active {
+     color: var(--black);
+ }
+
 .address{
     color: var(--white);
     font-style: normal;
@@ -157,13 +175,13 @@ letter-spacing: 0.03em;
     color: var(--header-and-item);
     background-color: var(--gray-fon);
     font-weight: 500;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.63;
 }
 
 .btn-grey:hover,
 .btn-grey:focus,
-.btn-grey:active {
+.btn-grey:active {      
     color: var(--white);
     background-color: var(--accent-color);
 }
