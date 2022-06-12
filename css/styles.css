@@ -38,12 +38,6 @@ letter-spacing: 0.03em;
     color: var(--accent-color);
  }
 
- .logo:hover,
- .logo:focus,
- .logo:active {
-    background-color: var(--gray-fon);
- }
-
 .logo-header {
     color: var(--black);
 }
@@ -158,12 +152,6 @@ letter-spacing: 0.03em;
 
 .logo-footer {
     color: var(--white);
-}
-
-.footer .logo:hover,
-.footer .logo:focus,
-.footer .logo:active {
-    background-color: transparent;
 }
 
 .address{
