@@ -81,13 +81,13 @@ letter-spacing: 0.03em;
     background-color: var(--black-fon);
     text-align: center;
     text-transform: uppercase;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
 }
 
 .hero-title {
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 44px;
 }
 
 .button-blu {
@@ -96,6 +96,7 @@ letter-spacing: 0.03em;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 
 .button-blu:active,
@@ -122,7 +123,6 @@ letter-spacing: 0.03em;
 /*Оглавление секций*/
 .title {
     color: var(--header-and-item);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -131,9 +131,17 @@ letter-spacing: 0.03em;
 /*Чем мы занимаемся*/
 
 /*Наша команда*/
+.team {
+    background-color: var(--gray-fon);
+}
+
+.team-cards{
+    background-color: var(--white);
+}
+
 .name {
     color: var(--header-and-item);
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -177,6 +185,7 @@ letter-spacing: 0.03em;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    letter-spacing: 0.03em;
 }
 
 .btn-grey:hover,
@@ -188,7 +197,6 @@ letter-spacing: 0.03em;
 
 .title-cards {
     color: var(--header-and-item);
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
