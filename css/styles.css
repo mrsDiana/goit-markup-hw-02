@@ -160,11 +160,11 @@ letter-spacing: 0.03em;
     color: var(--white);
 }
 
-.logo-footer:hover,
-.logo-footer:focus,
-.logo-footer:active {
-     color: var(--black);
- }
+.footer .logo:hover,
+.footer .logo:focus,
+.footer .logo:active {
+    background-color: transparent;
+}
 
 .address{
     color: var(--white);
