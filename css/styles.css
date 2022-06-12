@@ -6,7 +6,8 @@
     --adress-footer: #FFFFFF99;
     --black-fon: #2F303A;
     --gray-fon: #F5F4FA;
-    --main: #757575;     
+    --main: #757575;
+    --hero-button: #188ce8;     
 }
 
 body {
@@ -102,8 +103,7 @@ letter-spacing: 0.03em;
 .button-blu:active,
 .button-blu:hover,
 .button-blu:focus {
-    color: var(--black);
-    background-color: var(--gray-fon);
+    background-color: var(--hero-button);
 }
 
 /*Особенности*/
