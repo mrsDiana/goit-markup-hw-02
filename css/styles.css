@@ -113,7 +113,6 @@ letter-spacing: 0.03em;
 }
 .characteristic .title-item {
     color: var(--header-and-item);
-    font-weight: 700;
     font-size: 14px;
     line-height: 0.88;
     text-transform: uppercase;
